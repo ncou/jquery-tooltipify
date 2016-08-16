@@ -1,0 +1,28 @@
+.tt {
+  display: none;
+  position: absolute;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+  max-width: 200px;
+  background-color: #000;
+  border-radius: 3px;
+  }
+  .tt.visible {
+    display: inline-block;
+  }
+  .tt:after {
+    content: '\25be';
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    height: 10px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+  }
+
+.center {
+  margin: 25% auto;
+  text-align: center;
+}
